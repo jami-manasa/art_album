@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Coastal Rhythm</title>
+  <desc id="desc">Energetic pastel coastal abstract artwork with seafoam, coral, lemon, and periwinkle.</desc>
+  <defs>
+    <linearGradient id="sea" x1=".2" x2=".9" y1="0" y2="1">
+      <stop offset="0" stop-color="#9bf6ff"/>
+      <stop offset=".5" stop-color="#fdffb6"/>
+      <stop offset="1" stop-color="#ffadad"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence baseFrequency=".035" numOctaves="3" seed="21"/>
+      <feColorMatrix type="saturate" values=".18"/>
+      <feBlend in="SourceGraphic" mode="overlay"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#sea)"/>
+  <g filter="url(#grain)">
+    <path fill="#a0c4ff" d="M-25 618c190-156 374-167 550-32 153 118 324 122 513 12 56-32 116-68 187-90v373H-25Z" opacity=".88"/>
+    <path fill="#ffadad" d="M102 381c133-106 295-106 405 1 96 93 224 100 383 18 92-47 181-56 267-26v267c-103-53-210-48-320 15-171 99-328 86-470-39-105-93-229-111-367-53Z" opacity=".9"/>
+    <path fill="#fdffb6" d="M150 118c84 28 139 83 166 166 27 82 86 126 179 132 87 6 152 43 194 111-101 22-198 4-291-54-94-59-176-68-246-28-57 32-105 84-144 155V171Z"/>
+    <circle cx="918" cy="248" r="138" fill="#fffaf6" opacity=".72"/>
+    <circle cx="918" cy="248" r="76" fill="#fee440"/>
+    <g fill="none" stroke="#25212b" stroke-linecap="round" stroke-width="17" opacity=".36">
+      <path d="M93 774c174-104 332-101 476 10s309 119 496 24"/>
+      <path d="M166 983c112-56 216-57 313-2"/>
+      <path d="M665 192c55 56 126 79 214 68"/>
+    </g>
+    <g fill="#00b4d8" opacity=".7">
+      <circle cx="218" cy="232" r="17"/>
+      <circle cx="371" cy="718" r="13"/>
+      <circle cx="984" cy="718" r="18"/>
+      <circle cx="755" cy="969" r="12"/>
+    </g>
+  </g>
+</svg>

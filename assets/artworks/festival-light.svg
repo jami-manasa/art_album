@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Festival Light</title>
+  <desc id="desc">Celebratory pastel abstract artwork with magenta, apricot, mint, lavender, and yellow.</desc>
+  <defs>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".72">
+      <stop offset="0" stop-color="#fffaf6"/>
+      <stop offset=".32" stop-color="#fee440"/>
+      <stop offset=".7" stop-color="#bdb2ff"/>
+      <stop offset="1" stop-color="#f15bb5"/>
+    </radialGradient>
+    <filter id="canvas">
+      <feTurbulence baseFrequency=".026" numOctaves="4" seed="34"/>
+      <feColorMatrix type="saturate" values=".2"/>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#glow)"/>
+  <g filter="url(#canvas)">
+    <path fill="#00f5d4" d="M604 112c67 166 55 309-35 429-86 115-85 236 2 363 48 70 76 131 83 184-177-47-294-140-352-280-54-131-43-262 34-394 70-121 160-222 268-302Z" opacity=".85"/>
+    <path fill="#ffb703" d="M178 304c166 22 276 93 329 213 47 107 22 225-68 319-93 97-235 133-389 98 60-80 81-168 64-263-26-141-5-264 64-367Z" opacity=".72"/>
+    <path fill="#bdb2ff" d="M821 221c149 49 254 156 274 280 21 129-58 249-198 301-153 57-313 11-400-115 124-31 210-100 256-207 39-91 62-177 68-259Z" opacity=".9"/>
+    <path fill="#f15bb5" d="M397 826c138-86 300-72 407 34 92 91 106 224 34 326H268c-31-68-24-136 22-203 27-39 62-91 107-157Z" opacity=".78"/>
+    <circle cx="602" cy="604" r="108" fill="#fffaf6"/>
+    <circle cx="602" cy="604" r="52" fill="#fee440"/>
+    <g fill="#fffaf6" opacity=".82">
+      <rect x="204" y="170" width="42" height="42" rx="12" transform="rotate(18 225 191)"/>
+      <rect x="926" y="155" width="55" height="55" rx="16" transform="rotate(-22 954 183)"/>
+      <rect x="986" y="898" width="40" height="40" rx="12" transform="rotate(32 1006 918)"/>
+      <rect x="165" y="1002" width="50" height="50" rx="15" transform="rotate(-16 190 1027)"/>
+    </g>
+    <g fill="none" stroke="#25212b" stroke-linecap="round" stroke-width="16" opacity=".35">
+      <path d="M245 576c88 8 160 45 217 112"/>
+      <path d="M746 758c79-52 166-64 261-37"/>
+      <path d="M395 268c118 26 211 87 279 184"/>
+    </g>
+  </g>
+</svg>

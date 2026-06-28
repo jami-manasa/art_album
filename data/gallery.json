@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Pastel Bloom",
+    "description": "A cheerful burst of layered petals, soft sunshine, and playful pastel movement.",
+    "image": "assets/artworks/pastel-bloom.svg",
+    "medium": "Acrylic inspired",
+    "year": "2026",
+    "palette": ["#ff8fa3", "#b8f2d8", "#cdb4db", "#fff1a8"]
+  },
+  {
+    "title": "Moon Garden",
+    "description": "Dreamy lavender florals and floating garden shapes with a calm, luminous mood.",
+    "image": "assets/artworks/moon-garden.svg",
+    "medium": "Gouache inspired",
+    "year": "2026",
+    "palette": ["#cdb4db", "#ffc8dd", "#bde0fe", "#d8f3dc"]
+  },
+  {
+    "title": "Coastal Rhythm",
+    "description": "Fresh wave-like marks, coral light, and breezy color made for a bright room.",
+    "image": "assets/artworks/coastal-rhythm.svg",
+    "medium": "Mixed media inspired",
+    "year": "2026",
+    "palette": ["#9bf6ff", "#ffadad", "#fdffb6", "#a0c4ff"]
+  },
+  {
+    "title": "Festival Light",
+    "description": "A vibrant celebration of petals, confetti marks, and radiant pastel energy.",
+    "image": "assets/artworks/festival-light.svg",
+    "medium": "Acrylic inspired",
+    "year": "2026",
+    "palette": ["#f15bb5", "#fee440", "#00f5d4", "#bdb2ff"]
+  }
+]

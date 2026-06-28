@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Moon Garden</title>
+  <desc id="desc">Dreamy pastel garden artwork in lilac, blush, aqua, and pistachio.</desc>
+  <defs>
+    <radialGradient id="moon" cx=".52" cy=".42" r=".7">
+      <stop offset="0" stop-color="#fffaf6"/>
+      <stop offset=".43" stop-color="#ffc8dd"/>
+      <stop offset="1" stop-color="#bde0fe"/>
+    </radialGradient>
+    <filter id="paper">
+      <feTurbulence baseFrequency=".018" numOctaves="5" seed="14"/>
+      <feColorMatrix type="saturate" values=".22"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#moon)"/>
+  <g filter="url(#paper)">
+    <circle cx="590" cy="462" r="236" fill="#fffaf6" opacity=".8"/>
+    <path fill="#cdb4db" d="M226 601c45-188 222-310 390-277 151 30 249 176 215 323-39 172-229 280-408 227-146-43-230-151-197-273Z"/>
+    <path fill="#d8f3dc" d="M674 716c130-173 332-197 427-71 74 98 23 259-112 344-132 83-314 54-382-62-39-66-16-141 67-211Z" opacity=".92"/>
+    <path fill="#ffc8dd" d="M207 224c110-87 258-85 326 5 58 77 22 198-81 267-112 75-279 57-338-36-49-78-9-169 93-236Z"/>
+    <path fill="#bde0fe" d="M180 836c76-62 204-63 290 3 90 69 95 181 10 248-88 69-231 59-311-23-69-70-63-165 11-228Z"/>
+    <g fill="none" stroke="#25212b" stroke-linecap="round" stroke-width="15" opacity=".34">
+      <path d="M292 692c143-84 277-91 401-21"/>
+      <path d="M769 326c-40 119-17 223 71 312"/>
+      <path d="M420 1000c113-103 253-149 419-138"/>
+    </g>
+    <g fill="#8a4d79" opacity=".5">
+      <circle cx="913" cy="210" r="18"/>
+      <circle cx="1018" cy="416" r="13"/>
+      <circle cx="159" cy="482" r="16"/>
+      <circle cx="934" cy="1004" r="22"/>
+      <circle cx="350" cy="118" r="12"/>
+    </g>
+  </g>
+</svg>

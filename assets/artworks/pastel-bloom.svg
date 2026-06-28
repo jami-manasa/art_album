@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Pastel Bloom</title>
+  <desc id="desc">Pastel abstract floral artwork with coral, mint, lavender, and yellow shapes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff1a8"/>
+      <stop offset=".44" stop-color="#ffc8dd"/>
+      <stop offset="1" stop-color="#b8f2d8"/>
+    </linearGradient>
+    <filter id="texture">
+      <feTurbulence baseFrequency=".025" numOctaves="4" seed="8" type="fractalNoise"/>
+      <feColorMatrix type="saturate" values=".2"/>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <g filter="url(#texture)">
+    <path fill="#ff7f9b" d="M210 445c82-192 324-245 492-136 157 102 199 336 51 471-164 150-460 91-548-111-30-69-27-148 5-224Z"/>
+    <path fill="#bba5ff" d="M530 146c115 46 181 145 161 250-18 96-111 162-222 154-112-8-210-94-210-189 0-143 131-269 271-215Z" opacity=".86"/>
+    <path fill="#89e7c4" d="M675 535c158-96 337-46 383 82 41 114-49 253-203 290-146 35-309-31-342-140-26-84 45-175 162-232Z"/>
+    <path fill="#93ddff" d="M248 750c66-55 185-70 276-18 103 59 139 178 68 251-82 84-251 84-355 0-79-64-77-174 11-233Z" opacity=".82"/>
+    <circle cx="586" cy="610" r="122" fill="#fffaf6"/>
+    <circle cx="593" cy="606" r="72" fill="#ffe66d"/>
+    <path fill="none" stroke="#25212b" stroke-linecap="round" stroke-width="18" d="M213 295c86 65 178 84 277 52M780 235c-39 82-28 161 31 237M861 890c-105-12-193 13-264 76" opacity=".42"/>
+    <g fill="#fffaf6" opacity=".78">
+      <circle cx="170" cy="175" r="27"/>
+      <circle cx="1012" cy="249" r="36"/>
+      <circle cx="988" cy="1045" r="24"/>
+      <circle cx="235" cy="1004" r="18"/>
+      <circle cx="1032" cy="690" r="16"/>
+    </g>
+  </g>
+</svg>

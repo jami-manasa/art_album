@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sowjanya Silla Art Gallery - a vibrant pastel online gallery.">
+    <title>Sowjanya Silla Art Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Sowjanya Silla Art Gallery home">
+        <span class="brand-mark">SS</span>
+        <span>Sowjanya Silla</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-art" aria-hidden="true">
+          <img src="assets/artworks/pastel-bloom.svg" alt="">
+          <img src="assets/artworks/moon-garden.svg" alt="">
+          <img src="assets/artworks/coastal-rhythm.svg" alt="">
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Pastel colour stories</p>
+          <h1 id="hero-title">Sowjanya Silla Art Gallery</h1>
+          <p class="hero-text">A bright digital home for expressive paintings, soft details, and vibrant handmade energy.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#gallery">View artworks</a>
+            <a class="button secondary" href="#contact">Ask about a piece</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section gallery-section" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Current collection</p>
+            <h2 id="gallery-title">Featured Artworks</h2>
+          </div>
+          <label class="search-box">
+            <span class="sr-only">Search artworks</span>
+            <input id="searchInput" type="search" placeholder="Search by name, colour, mood...">
+          </label>
+        </div>
+        <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
+        <p id="emptyState" class="empty-state" hidden>No artworks match that search.</p>
+      </section>
+
+      <section id="about" class="section split-section" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">Artist note</p>
+          <h2 id="about-title">Colour, feeling, and flow</h2>
+        </div>
+        <p>Sowjanya's gallery can grow with every new painting. Add the artwork file, update the simple gallery data, and the website refreshes the collection automatically on GitHub Pages.</p>
+      </section>
+
+      <section id="contact" class="section contact-band" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Connect</p>
+          <h2 id="contact-title">Interested in an artwork?</h2>
+        </div>
+        <a class="button primary" href="mailto:sowjanya@example.com?subject=Artwork%20Inquiry">Email the gallery</a>
+      </section>
+    </main>
+
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" hidden>
+      <button class="icon-button close-lightbox" type="button" aria-label="Close artwork preview">x</button>
+      <div class="lightbox-inner">
+        <img id="lightboxImage" src="" alt="">
+        <div class="lightbox-copy">
+          <p id="lightboxMeta" class="eyebrow"></p>
+          <h2 id="lightboxTitle"></h2>
+          <p id="lightboxDescription"></p>
+          <div id="lightboxPalette" class="palette"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
