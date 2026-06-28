@@ -3,106 +3,196 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sowjanya Silla Art Gallery">
+    <meta name="description" content="Sowjanya Silla Personal Art Gallery">
     <title>Sowjanya Silla Art Gallery</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
     <div class="cursor-glow" aria-hidden="true"></div>
 
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Sowjanya Silla Art Gallery home">
+      <a class="brand" href="#top" aria-label="Sowjanya Silla Art Gallery Home">
         <span class="brand-mark">SS</span>
         <span>Sowjanya Silla</span>
       </a>
+
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#gallery">Gallery</a>
-        <a href="#about">About</a>
+        <a href="#about">About Me</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
+
+      <!-- Hero -->
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-art" aria-hidden="true">
           <img src="assets/artworks/pastel-bloom.svg" alt="">
           <img src="assets/artworks/moon-garden.svg" alt="">
           <img src="assets/artworks/coastal-rhythm.svg" alt="">
         </div>
+
         <div class="hero-copy">
-          <p class="eyebrow">Pastel colour stories</p>
-          <h1 id="hero-title">Sowjanya Silla Art Gallery</h1>
-          <p class="hero-text">Original art by Sowjanya Silla, where soft colour, graceful lines, and joyful details turn each canvas into a small story.</p>
+          <p class="eyebrow">Original Artwork by Sowjanya Silla</p>
+
+          <h1 id="hero-title">
+            Welcome to My Art Gallery
+          </h1>
+
+          <p class="hero-text">
+            Every painting in this gallery is created by me with passion and creativity.
+            Through soft colours, expressive brushstrokes, and meaningful compositions,
+            I share my thoughts, emotions, and inspiration from the world around me.
+          </p>
+
           <div class="hero-actions">
-            <a class="button primary" href="#gallery">View artworks</a>
-            <a class="button secondary" href="#contact">Ask about a piece</a>
+            <a class="button primary" href="#gallery">Explore My Collection</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
           </div>
         </div>
       </section>
 
+      <!-- Gallery -->
       <section id="gallery" class="section gallery-section" aria-labelledby="gallery-title">
+
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Current collection</p>
-            <h2 id="gallery-title">Artworks & Meanings</h2>
+            <p class="eyebrow">My Collection</p>
+            <h2 id="gallery-title">Artworks & Their Stories</h2>
           </div>
+
           <label class="search-box">
             <span class="sr-only">Search artworks</span>
-            <input id="searchInput" type="search" placeholder="Search by name, colour, feeling...">
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="Search by artwork, colour, or mood..."
+            >
           </label>
         </div>
+
         <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
-        <p id="emptyState" class="empty-state" hidden>No artworks match that search.</p>
+
+        <p id="emptyState" class="empty-state" hidden>
+          No artworks match your search.
+        </p>
+
       </section>
 
-      <section id="about" class="section split-section" aria-labelledby="about-title">
+      <!-- About -->
+      <section
+        id="about"
+        class="section split-section"
+        aria-labelledby="about-title"
+      >
+
         <div>
-          <p class="eyebrow">Artist note</p>
-          <h2 id="about-title">A gentle language of colour</h2>
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-title">My Artistic Journey</h2>
         </div>
-        <p>Sowjanya's work celebrates the quiet beauty inside everyday feelings. Each artwork carries a name, a mood, and a meaning: blooming hope, calm nights, moving water, festive light, and the many colours of memory.</p>
+
+        <p>
+          Welcome to my personal art gallery. Painting is my way of expressing
+          emotions, memories, and the beauty I see in everyday life.
+          Every artwork I create carries its own story, inspired by nature,
+          peaceful moments, colourful experiences, and imagination.
+          I hope my paintings bring warmth, joy, and inspiration to everyone who
+          views them.
+        </p>
+
       </section>
 
-      <section id="contact" class="section contact-band" aria-labelledby="contact-title">
+      <!-- Contact -->
+      <section
+        id="contact"
+        class="section contact-band"
+        aria-labelledby="contact-title"
+      >
+
         <div class="contact-copy">
-          <p class="eyebrow">Connect</p>
-          <h2 id="contact-title">Bring a piece into your space</h2>
-          <p>For artwork enquiries, custom pieces, or collection details, reach out to me directly.</p>
+          <p class="eyebrow">Get in Touch</p>
+
+          <h2 id="contact-title">
+            Let's Connect
+          </h2>
+
+          <p>
+            If you're interested in purchasing one of my artworks,
+            requesting a custom painting, collaborating, or simply want
+            to connect with me, I'd be happy to hear from you.
+          </p>
         </div>
-        <div class="contact-links" aria-label="Sowjanya Silla contact details">
+
+        <div
+          class="contact-links"
+          aria-label="Contact Information"
+        >
+
           <a class="contact-link" href="tel:+10000000000">
             <span>Phone</span>
             <strong>+1 000 000 0000</strong>
           </a>
-          <a class="contact-link" href="mailto:sowjanya@example.com?subject=Artwork%20Inquiry">
-            <span>Email</span>
+
+          <a
+            class="contact-link"
+            href="mailto:sowjanya@example.com?subject=Artwork%20Inquiry"
+          >
+            <span>Email Me</span>
             <strong>sowjanya@gmail.com</strong>
           </a>
+
         </div>
+
       </section>
+
     </main>
 
-    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" hidden>
-      <button class="icon-button close-lightbox" type="button" aria-label="Close artwork preview">x</button>
+    <!-- Lightbox -->
+    <div
+      id="lightbox"
+      class="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lightboxTitle"
+      hidden
+    >
+
+      <button
+        class="icon-button close-lightbox"
+        type="button"
+        aria-label="Close artwork preview"
+      >
+        ×
+      </button>
+
       <div class="lightbox-inner">
-        <img id="lightboxImage" src="" alt="">
+
+        <img
+          id="lightboxImage"
+          src=""
+          alt=""
+        >
+
         <div class="lightbox-copy">
           <p id="lightboxMeta" class="eyebrow"></p>
+
           <h2 id="lightboxTitle"></h2>
+
           <p id="lightboxDescription"></p>
+
           <div id="lightboxPalette" class="palette"></div>
         </div>
+
       </div>
+
     </div>
 
     <script src="script.js" defer></script>
   </body>
 </html>
-
-
-
-
-
